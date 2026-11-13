@@ -13,19 +13,17 @@ API REST de cadastro de pessoas desenvolvida como projeto da Digital Innovation 
 
 ## Estrutura
 
-O código do projeto está na pasta `apipeople-lucas-main/`.
+O código do projeto está diretamente na raiz do repositório.
 
 ## Como executar
 
 ```bash
-cd apipeople-lucas-main
 ./mvnw spring-boot:run
 ```
 
 No Windows:
 
 ```powershell
-cd apipeople-lucas-main
 .\mvnw.cmd spring-boot:run
 ```
 
@@ -46,8 +44,7 @@ Base: `http://localhost:8080/api/v1/people`
 ## Testes
 
 ```bash
-cd apipeople-lucas-main
 ./mvnw test
 ```
 
-Há um README original dentro da pasta do projeto; este arquivo na raiz documenta a execução e facilita localizar o código.
+O projeto foi reorganizado para manter `pom.xml`, `src/` e os scripts do Maven diretamente na raiz.
